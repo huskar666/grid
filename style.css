@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-gap: 50px;
+
+
+}
+.item{
+    border: 2px solid black;
+
+    justify-content: space-around;
+height: 200px;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: larger;
+}
